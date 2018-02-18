@@ -1,2 +1,2 @@
 # inavord
-Starter template for C# CQRS on Azure projects
+Seedwork projects for C# CQRS on Azure solutions.
