@@ -4,8 +4,8 @@ Starter template for C# CQRS on Azure projects
 
 ## Roadmap For Success
 
-[ ] Determine how to store secrets/passwords/connection strings in Open Source Code
-[ ] Create mini proof-of-concept projects throughout solution to demonstrate the viability of each idea
+- [ ] Determine how to store secrets/passwords/connection strings in Open Source Code
+- [ ] Create mini proof-of-concept projects throughout solution to demonstrate the viability of each idea
 
 ## Authentication
 
