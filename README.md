@@ -2,6 +2,11 @@
 
 Starter template for C# CQRS on Azure projects
 
+## Roadmap For Success
+
+[ ] Determine how to store secrets/passwords/connection strings in Open Source Code
+[ ] Create mini proof-of-concept projects throughout solution to demonstrate the viability of each idea
+
 ## Authentication
 
 [Azure Active Directory B2C](https://azure.microsoft.com/en-us/services/active-directory-b2c/) provides the authentication mechanism.
@@ -27,4 +32,3 @@ Roll based authorizations, starting with hard-coded list of groups:
 
 - Fully customizable roles and privilege assignments
 - Privilege assignments to granular levels (perhaps even as far as field level read/write)
-
