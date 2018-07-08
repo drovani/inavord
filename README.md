@@ -12,6 +12,8 @@ Starter template for C# CQRS on Azure projects
 
 [Azure Active Directory B2C](https://azure.microsoft.com/en-us/services/active-directory-b2c/) provides the authentication mechanism.
 
+- 
+
 ### Future Authentication Goals
 
 - [x] Ability to plug into Azure Active Directory B2C
