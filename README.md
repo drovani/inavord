@@ -1,4 +1,4 @@
-# inavord
+# Inavord Architecture
 
 Starter template for C# CQRS on Azure projects
 
