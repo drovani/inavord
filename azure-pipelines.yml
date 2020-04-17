@@ -1,0 +1,19 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: AzureResourceManagerTemplateDeployment@3
+    inputs:
+      deploymentScope: 'Resource Group'
+      azureResourceManagerConnection: 'AzureRmPipeline-conn'
+      subscriptionId: 'cd76ed9e-954a-4b7c-9ad7-0b69594e95b9'
+      action: 'Create Or Update Resource Group'
+      resourceGroupName: 'inavord-script'
+      location: 'North Central US'
+      templateLocation: 'Linked artifact'
+      csmFile: 'azuredeploy.json'
+      deploymentMode: 'Incremental'
+      deploymentName: 'DeployPipelineTemplate'
